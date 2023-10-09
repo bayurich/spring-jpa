@@ -31,7 +31,7 @@ public class MyRepository {
         personList.forEach(System.out::println);*/
 
         Person person = new Person(new PersonId("aa", "bb", 20), "111111", "Moscow");
-        //entityManager.getTransaction().begin();
+        //entityManager.persist(person);
     }
 
 
